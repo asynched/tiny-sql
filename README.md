@@ -37,5 +37,7 @@ yarn start
 - [x] INSERT
 - [x] DELETE
 - [x] WHERE
+- [x] ORDER BY
+- [x] LIMIT
 - [ ] JOINS
 - [ ] ALIASES
