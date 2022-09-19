@@ -1,0 +1,22 @@
+{
+  "name": "tiny-sql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Eder Lima",
+  "license": "MIT",
+  "scripts": {
+    "build": "sucrase src -d build -t imports",
+    "start": "node build/bootstrap.js",
+    "dev": "sucrase-node src/bootstrap.js",
+    "dev:watch": "nodemon src/bootstrap.js"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2",
+    "node-sql-parser": "^4.5.0",
+    "perf_hooks": "^0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sucrase": "^3.27.0"
+  }
+}
