@@ -1,4 +1,4 @@
-# tiny-sql-js
+# tiny-sql
 
 A tiny in-memory database written in Node.js
 
